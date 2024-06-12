@@ -29,8 +29,8 @@ local Window = Rayfield:CreateWindow({
 local MainTab = Window:CreateTab("universal", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("run")
 
-local Button = Tab:CreateButton({
-   Name = "Button Example",
+local Button = MainTab:CreateButton({
+   Name = "universal",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
